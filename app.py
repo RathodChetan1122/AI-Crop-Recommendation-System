@@ -752,7 +752,7 @@ with st.sidebar:
     st.write("AI-based crop recommendation using soil and environmental measurements.")
 
     st.divider()
-    st.markdown("### 🧠 Model")
+    st.markdown("###  Model")
     st.write(f"**{MODEL_INFO['algorithm']}**")
     st.write(f"**{MODEL_INFO['n_classes']} crop classes**")
     st.write(f"**{MODEL_INFO['n_features']} input features**")
@@ -1214,25 +1214,25 @@ with st.expander("🚀 Future Features"):
         """
         ### Planned Extensions
 
-        🌦️ **Live Weather Integration** — Use current weather information to improve environmental context.
+         **Live Weather Integration** — Use current weather information to improve environmental context.
 
-        📍 **Location-Based Recommendation** — Use the farmer's location to provide region-specific recommendations.
+         **Location-Based Recommendation** — Use the farmer's location to provide region-specific recommendations.
 
-        💧 **Irrigation Recommendation** — Estimate irrigation requirements based on crop and environmental conditions.
+         **Irrigation Recommendation** — Estimate irrigation requirements based on crop and environmental conditions.
 
-        🧪 **Advanced Soil Analysis** — Add additional soil measurements such as organic carbon and electrical conductivity.
+         **Advanced Soil Analysis** — Add additional soil measurements such as organic carbon and electrical conductivity.
 
-        💰 **Market Information** — Include crop price and market-demand information.
+         **Market Information** — Include crop price and market-demand information.
 
-        📅 **Season Recommendation** — Recommend crops according to the current agricultural season.
+         **Season Recommendation** — Recommend crops according to the current agricultural season.
 
-        🗣️ **Multiple Languages** — Provide the application in regional languages for easier farmer use.
+         **Multiple Languages** — Provide the application in regional languages for easier farmer use.
 
-        📷 **Plant Disease Detection** — Add image-based plant disease detection.
+         **Plant Disease Detection** — Add image-based plant disease detection.
 
-        🤖 **AI Agricultural Assistant** — Add a conversational assistant for crop-related questions.
+         **AI Agricultural Assistant** — Add a conversational assistant for crop-related questions.
 
-        📱 **Mobile Application** — Convert the recommendation system into a mobile-friendly farmer application.
+         **Mobile Application** — Convert the recommendation system into a mobile-friendly farmer application.
         """
     )
 
