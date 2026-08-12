@@ -1,0 +1,188 @@
+/* -------------------------------
+    MAIN APPLICATION
+--------------------------------*/
+
+.stApp {
+    background: #f5f9f6;
+}
+
+.block-container {
+    max-width: 1400px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+/* -------------------------------
+    HEADER
+--------------------------------*/
+
+.main-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #166534;
+    margin-bottom: 0.2rem;
+}
+
+.subtitle {
+    font-size: 1.15rem;
+    color: #64748b;
+    margin-bottom: 2rem;
+}
+
+
+/* -------------------------------
+    SECTION TITLE
+--------------------------------*/
+
+.section-title {
+    font-size: 1.6rem;
+    font-weight: 750;
+    color: #14532d;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* -------------------------------
+    RESULT CARD
+--------------------------------*/
+
+.result-card {
+    background: linear-gradient(
+        135deg,
+        #166534 0%,
+        #15803d 100%
+    );
+
+    padding: 2.2rem;
+    border-radius: 22px;
+    color: white;
+    text-align: center;
+
+    box-shadow:
+        0 12px 30px rgba(22, 101, 52, 0.20);
+
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.result-label {
+    font-size: 1.1rem;
+    opacity: 0.92;
+}
+
+.result-crop {
+    font-size: 3.3rem;
+    font-weight: 800;
+    margin: 0.5rem 0;
+}
+
+.result-confidence {
+    font-size: 1.15rem;
+    opacity: 0.95;
+}
+
+
+/* -------------------------------
+    CROP CARDS
+--------------------------------*/
+
+.crop-card {
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 1.5rem;
+
+    text-align: center;
+
+    border: 1px solid #dcfce7;
+
+    box-shadow:
+        0 5px 16px rgba(15, 23, 42, 0.06);
+
+    min-height: 150px;
+}
+
+.crop-rank {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.crop-name {
+    font-size: 1.35rem;
+    font-weight: 750;
+    color: #166534;
+}
+
+.crop-probability {
+    font-size: 1.05rem;
+    color: #475569;
+    margin-top: 0.4rem;
+}
+
+
+/* -------------------------------
+    INFORMATION CARDS
+--------------------------------*/
+
+.info-card {
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 1.5rem;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow:
+        0 5px 16px rgba(15, 23, 42, 0.05);
+
+    min-height: 170px;
+}
+
+.info-card h3 {
+    color: #166534;
+    margin-bottom: 0.8rem;
+}
+
+.info-card p {
+    color: #475569;
+    line-height: 1.6;
+}
+
+
+/* -------------------------------
+    INPUT AREA
+--------------------------------*/
+
+.input-description {
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+
+/* -------------------------------
+    FOOTER
+--------------------------------*/
+
+.footer {
+    text-align: center;
+    color: #64748b;
+    padding-top: 2rem;
+    font-size: 0.9rem;
+}
+
+
+/* -------------------------------
+    STREAMLIT UI
+--------------------------------*/
+
+div[data-testid="stMetric"] {
+    background: white;
+    padding: 1rem;
+    border-radius: 14px;
+    border: 1px solid #e2e8f0;
+}
