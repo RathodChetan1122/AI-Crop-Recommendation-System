@@ -1,5 +1,5 @@
 # 🌱 AI-Based Crop Recommendation System
-
+#LINK - https://ai-crop-recommendation-system-chetan.streamlit.app/
 An end-to-end machine learning application that recommends a suitable crop based on soil and environmental conditions.
 
 The project uses a **Tuned Random Forest classifier** trained on soil nutrients and environmental measurements. A **Streamlit** web application provides an easy-to-use interface for farmers, students, and other users to enter measurements and receive a crop recommendation.
@@ -376,7 +376,7 @@ Contains the Python dependencies required to run the application.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AI-Crop-Recommendation-System.git
+git clone https://github.com/RathodChetan1122/AI-Crop-Recommendation-System.git
 cd AI-Crop-Recommendation-System
 ```
 
